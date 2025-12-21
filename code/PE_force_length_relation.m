@@ -9,4 +9,4 @@ function f_l = PE_force_length_relation(lce_nrm, mp)
 % Returns:
 %   f_l: The normalized force of the force-length relation.
 
-f_l = (lce_nrm > 1) .* ((lce_nrm - 1) / mp.w).^2;
+f_l = (lce_nrm > 1) .* ((lce_nrm - 1) / mp.w).^3;
